@@ -174,10 +174,10 @@ html{
     position: relative;
     height: 445px;
     width: 960px;
-    top: 100px;
-    margin-left: 18%;
-    margin-right: 15%;
-    margin-bottom: 100px;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 100px; */
     /* background-color: rgb(0, 0, 0); */
     
     /* margin-right: 150px; */
@@ -326,8 +326,12 @@ html{
 	display: flex;
 	flex-wrap: wrap;
     margin: 0 ;
-    padding-left: 230px;
-    padding-right: 230px;
+    padding: 0;
+    padding-left:auto;
+    padding-right: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 1216px;
 }
 
 #acol {
@@ -335,17 +339,21 @@ html{
     margin-right: auto;
     padding-bottom: 35px;
     padding-top: 15px;
-	width: 304px;
+	width: 310px;
 }
 /*--------------*/
 .a-item-col{
-    width: 304px;
+    /* width: 304px; */
     list-style: none;
 }
 .a-item-link {
-    width: 304px;
+    /* width: 304px; */
 	position: relative;
-	display: block;
+    display: block;
+    width: 304px;
+    height: 304px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -355,7 +363,8 @@ html{
     height: 304px;
     border-radius: 20px;
     transition: all 0.3s;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 #col-b:hover{
     
@@ -391,7 +400,7 @@ html{
 .overlay h3 {
 	font-weight: 100;
     text-align:center;
-    padding-top: 60%;
+    padding-top: 30%;
     font-size: 1.8em;
     /* opacity: 1; */
     
@@ -408,8 +417,8 @@ html{
     height: 68px; */
     /* border: 1px solid #79831e; */
     margin-top: 30px;
-    margin-left: 650px;
-    margin-right: 650px;
+    margin-left: 20%;
+    margin-right: 20%;
     
     
 
@@ -493,7 +502,7 @@ html{
 
 .p4-iner-text{
     text-indent: 0.5em;
-    margin-left: 120px;
+    margin-left: 8%;
     margin-top: 100px;
     width: 400px;
     font-size: 2.4em;
@@ -511,7 +520,7 @@ html{
     width: 200px;
     height: 60px;
     text-decoration: none;
-    margin-left: 120px;
+    margin-left: 8%;
     border-radius:20px;
     transition: all 0.3s;
     
@@ -540,7 +549,7 @@ html{
     
     height: 380px;
     margin-top: 0px;
-    padding-left: 120px;
+    padding-left: 8%;
     padding-top: 40px;
     background-color: aliceblue;
     
@@ -559,7 +568,7 @@ html{
 }
 .group{
     
-    margin-right: 110px;
+    margin-right: 8%;
     width: 300px;
     font-size: 14px;
     
@@ -568,13 +577,13 @@ html{
 }
 .service{
     
-    margin-right: 110px;
+    margin-right: 8%;
     width: 300px;
     font-size: 14px;
     
 }
 .news{
-    margin-right: 50px;
+    margin-right: 8%;
     width: 450px;
     font-size: 14px;
     line-height:2.5em;
